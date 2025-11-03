@@ -9,7 +9,7 @@ export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
   
   return (
-    <div className="fixed flex w-full items-center justify-between py-4 px-4 sm:px-6 md:px-10 lg:px-15 bg-[#000000e6] backdrop-blur-sm text-white z-50">
+    <div className="fixed flex w-full items-center justify-between py-4 px-4  md:px-10 lg:px-15 bg-[#000000e6] backdrop-blur-sm text-white z-50">
       <h1
         className="font-bold text-2xl sm:text-3xl cursor-pointer"
         onClick={() => navigation("/")}

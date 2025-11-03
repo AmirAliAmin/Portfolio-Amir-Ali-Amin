@@ -5,12 +5,12 @@ export default function About() {
     const [activeTab, setActiveTab] = useState("mainSkill")
     
   return (
-    <div className='flex flex-wrap sm:flex-row flex-col items-center min-h-screen justify-center w-full   bg-black text-white lg:px-10 lg:pt-15 md:pt-20'>
-      <div className='sm:w-[40%] w-full flex h-full  items-center justify-center'>
-        <img src={image} alt="Professional portrait" className='bg-gray-950 h-100' />
+    <div className='flex flex-wrap sm:flex-row flex-col items-center min-h-screen justify-center gap-10  w-full bg-black text-white  lg:pt-15 md:pt-20 px-4 md:px-10 lg:px-15'>
+      <div className='sm:w-[40%] w-full flex h-full  items-center justify-center sm:justify-start overflow-hidden'>
+        <img src={image} alt="Professional portrait" className='bg-gray-950 h-130 transition-all hover:scale-120 cursor-pointer' />
       </div>
       
-      <div className='sm:w-[60%] w-full h-full px-5  flex flex-col justify-center'>
+      <div className='sm:w-[50%] w-full h-full  flex flex-col justify-center'>
         <h1 className='text-5xl font-extrabold mb-4'>About Me</h1>
         <span className="relative inline-flex h-10 w-10 -top-15">
           <span className="absolute w-full h-full rounded-full bg-red-600 opacity-75 animate-ping"></span>

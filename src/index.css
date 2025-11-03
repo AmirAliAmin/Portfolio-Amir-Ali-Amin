@@ -21,6 +21,7 @@ a.active {
 
 @theme{
   --animate-wiggle :wiggle 0.5s ease-in-out infinite;
+  ----animate-block:block 5s linear;
   @keyframes wiggle{
     0%{
       transform: rotate(-5deg);
@@ -32,4 +33,15 @@ a.active {
       transform: rotate(-5deg);
     }
   }
+  @keyframes block{
+  from{
+    opacity:0;
+    sacle:0.5;
+  }
+  to{
+    opacity:1;
+    sacle:1;
+  }
 }
+}
+

@@ -130,19 +130,19 @@ export default function Contact() {
           </div>
 
           {/* Image Section */}
-          <div className="lg:w-1/2 w-full flex justify-center">
-            <div className="relative">
+          <div className="lg:w-1/2 w-full flex justify-center ">
+            <div className="relative ">
               <img
                 src={image}
                 alt="Professional portrait"
-                className="bg-gray-900 w-full max-w-md h-auto rounded-2xl shadow-2xl"
+                className="bg-gray-900 w-full max-w-md h-auto rounded-2xl shadow-2xl transition-all hover:scale-105 cursor-pointer"
               />
               <span className="absolute inline-flex h-24 w-24 top-2">
                 <span className=" w-full h-full rounded-full bg-red-600 opacity-75 animate-ping"></span>
               </span>
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 border-4 border-red-400 rounded-2xl"></div>
+              <div className="absolute z-2 -bottom-4 -right-4 w-24 h-24 border-4 border-red-400 rounded-2xl"></div>
               <div className="absolute -top-4 -left-4 w-20 h-20 border-4 border-red-400 rounded-full"></div>
-              <span className="absolute inline-flex h-20 w-20 top-130 right-0">
+              <span className="absolute inline-flex h-20 w-20 top-80 right-0 sm:top-130">
                 <span className=" w-full h-full rounded-2xl bg-red-600 opacity-75 animate-ping"></span>
               </span>
             </div>
