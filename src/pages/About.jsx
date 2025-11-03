@@ -12,6 +12,9 @@ export default function About() {
       
       <div className='sm:w-[60%] w-full h-full px-5  flex flex-col justify-center'>
         <h1 className='text-5xl font-extrabold mb-4'>About Me</h1>
+        <span className="relative inline-flex h-10 w-10 -top-15">
+          <span className="absolute w-full h-full rounded-full bg-red-600 opacity-75 animate-ping"></span>
+        </span>
         <p className='font-light'>
           I'm a passionate software developer with expertise in creating dynamic, user-friendly applications. 
           With a strong foundation in modern web technologies, I specialize in building seamless digital experiences 

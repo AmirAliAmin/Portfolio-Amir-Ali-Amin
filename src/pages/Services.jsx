@@ -10,6 +10,9 @@ import { TbApi } from "react-icons/tb";
 export default function Services() {
   return (
     <div className="bg-black text-white pt-20 sm:px-8">
+        <span className="relative inline-flex h-10 w-10 top-10 left-80">
+          <span className="absolute w-full h-full rounded-full bg-red-600 opacity-75 animate-ping"></span>
+        </span>
       <div className="flex flex-col items-center text-center">
         <h1 className="font-extrabold text-5xl mb-4">
           My Skills & Technologies

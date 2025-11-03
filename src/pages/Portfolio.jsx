@@ -5,6 +5,7 @@ import project3 from '../assets/Project3.png'
 import project4 from '../assets/Project4.png'
 import project5 from '../assets/Project5.png'
 import project6 from '../assets/Project6.png'
+import project7 from '../assets/Project7.png'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 
 export default function Portfolio() {
@@ -56,7 +57,16 @@ export default function Portfolio() {
       description: "Property listing and real estate management platform",
       category: "Real Estate",
       link: "https://real-estate-ipl1.vercel.app/"
-    }
+    },
+   {
+  id: 7,
+  name: "Netflix Clone with Firebase",
+  image: project7,
+  description: "A full-stack Netflix clone with user authentication, movie browsing, and responsive design using React and Firebase",
+  category: "Entertainment",
+  link: "https://netflix-clone-nine-nu-59.vercel.app/",
+ 
+}
   ]
 
   const handleProjectClick = (link) => {
