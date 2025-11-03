@@ -32,7 +32,6 @@ export default function Services() {
             </h1>
             <p className="flex items-center mb-2 text-3xl sm:hidden">
               <FaHtml5 className="text-orange-500" />
-             
             </p>
           </div>
           <p className="text-gray-600 font-light mt-2">
