@@ -10,9 +10,6 @@ import { TbApi } from "react-icons/tb";
 export default function Services() {
   return (
     <div className="bg-black text-white pt-20 sm:px-7">
-        {/* <span className="relative inline-flex h-10 w-10 top-10 left-80">
-          <span className="absolute w-full h-full rounded-full bg-red-600 opacity-75 animate-ping"></span>
-        </span> */}
       <div className="flex flex-col items-center text-center">
         <h1 className="font-extrabold text-5xl mb-4">
           My Skills & Technologies
@@ -22,7 +19,6 @@ export default function Services() {
           design
         </p>
       </div>
-      
       <div className="grid sm:grid-cols-2 grid-cols-1  mt-5">
         {/* HTML & CSS */}
         <div className="relative py-1 px-5 sm:border-r">
@@ -44,16 +40,12 @@ export default function Services() {
             <div className="absolute top-0 transform translate-x-4 right-0 bg-black">
               <p className="text-3xl">
                 <FaHtml5 className="text-orange-500" />
-                
               </p>
             </div>
           </div>
         </div>
-        
         <div className=""></div>
-        
         <div className=""></div>
-
         {/* JavaScript */}
         <div className="relative sm:border-l py-1 px-5">
           <div className="flex gap-3 items-center">

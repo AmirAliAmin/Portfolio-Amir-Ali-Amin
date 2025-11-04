@@ -60,7 +60,6 @@ export default function Navbar() {
           Contact
         </NavLink>
       </ul>
-      
       {/* Right Section */}
       <div className="flex items-center justify-end gap-3 sm:gap-4">
         <a href="#" className="hover:text-red-400 transition-colors text-lg size-6 animate-bounce">
@@ -79,7 +78,6 @@ export default function Navbar() {
           <span className='animate-[wiggle_2s_ease-in-out_infinite] inline-block '>👋</span> Let's Talk
         </button>
       </div>
-
       {/* Mobile Menu */}
       {showMenu && (
         <>
@@ -124,7 +122,6 @@ export default function Navbar() {
                 </NavLink>
               ))}
             </ul>
-            
             <div className="p-6">
               <button className="w-full animate-pulse py-3 bg-red-400 hover:bg-red-500 transition-colors rounded text-sm font-semibold cursor-pointer">
                 <span className='animate-[wiggle_2s_ease-in-out_infinite] inline-block '>👋</span> Let's Talk

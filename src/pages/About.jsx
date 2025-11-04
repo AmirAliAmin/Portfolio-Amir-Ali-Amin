@@ -5,7 +5,7 @@ export default function About() {
     const [activeTab, setActiveTab] = useState("mainSkill")
     
   return (
-    <div className='flex flex-wrap sm:flex-row flex-col items-center min-h-screen justify-center gap-10  w-full bg-black text-white   lg:pt-15 md:pt-20 px-4 md:px-10 lg:px-15'>
+    <div className='flex flex-wrap sm:flex-row flex-col items-center min-h-screen justify-center gap-10  w-full bg-black text-white lg:pt-15 md:pt-20 px-4 md:px-10 lg:px-15'>
       <div className='lg:w-[40%] w-full flex h-full  items-center justify-center lg:justify-start overflow-hidden'>
         <img src={image} alt="Professional portrait" className='bg-gray-950 h-130 transition-all hover:scale-120 cursor-pointer' />
       </div>
@@ -19,7 +19,6 @@ export default function About() {
           With a strong foundation in modern web technologies, I specialize in building seamless digital experiences 
           that combine aesthetic appeal with functional excellence.
         </p>
-        
         <div className='flex flex-wrap mt-5'>
             <ul className='flex flex-wrap gap-5'>
                 <li className={`cursor-pointer ${activeTab === "mainSkill" ? "border-b-2 border-red-400" : ""}`} 
@@ -40,7 +39,6 @@ export default function About() {
                 </li>
             </ul>
         </div>
-        
         {activeTab === "mainSkill" && (
             <div className="mt-4 space-y-4">
                 <div>
@@ -57,7 +55,6 @@ export default function About() {
                 </div>
             </div>
         )}
-        
         {activeTab === "award" && (
             <div className="mt-4 space-y-4">
                 <div>
@@ -74,7 +71,6 @@ export default function About() {
                 </div>
             </div>
         )}
-        
         {activeTab === "experience" && (
             <div className="mt-4 space-y-6">
                 <div>
@@ -89,7 +85,6 @@ export default function About() {
                 </div>
             </div>
         )}
-        
         {activeTab === "education" && (
             <div className="mt-4 space-y-6">
                 <div>
