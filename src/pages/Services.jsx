@@ -101,7 +101,6 @@ export default function Services() {
         </div>
         
         <div></div>
-        
         <div></div>
 
         {/* Node.js */}
@@ -127,7 +126,6 @@ export default function Services() {
                 <FaNode />
               </p>
             </div>
-            
           </div>
         </div>
 
@@ -159,7 +157,6 @@ export default function Services() {
         </div>
         
         <div></div>
-        
         <div></div>
 
         {/* RESTful APIs */}
