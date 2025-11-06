@@ -62,10 +62,10 @@ export default function Navbar() {
       </ul>
       {/* Right Section */}
       <div className="flex items-center justify-end gap-3 sm:gap-4">
-        <a href="#" className="hover:text-red-400 transition-colors text-lg size-6 animate-bounce">
+        <a href="https://www.linkedin.com/in/amir-ali-amin-623591298/" target="_blank" className="hover:text-red-400 transition-colors text-lg size-6 animate-bounce">
           <FaLinkedin />
         </a>
-        <a href="#" className="hover:text-red-400 transition-colors text-lg size-6 animate-bounce">
+        <a href="https://github.com/AmirAliAmin" target="_blank" className="hover:text-red-400 transition-colors text-lg size-6 animate-bounce">
           <FaGithub />
         </a>
         <button 
