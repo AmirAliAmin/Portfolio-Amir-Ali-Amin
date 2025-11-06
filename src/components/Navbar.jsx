@@ -123,7 +123,7 @@ export default function Navbar() {
               ))}
             </ul>
             <div className="p-6">
-              <button className="w-full animate-pulse py-3 bg-red-400 hover:bg-red-500 transition-colors rounded text-sm font-semibold cursor-pointer">
+              <button className="w-full animate-pulse py-3 bg-red-400 hover:bg-red-500 transition-colors rounded text-sm font-semibold cursor-pointer" onClick={() => navigation("/contact")}>
                 <span className='animate-[wiggle_2s_ease-in-out_infinite] inline-block '>👋</span> Let's Talk
               </button>
             </div>
