@@ -74,7 +74,7 @@ export default function Navbar() {
         >
           <IoIosMenu />
         </button>
-        <button className="hidden sm:block py-2 px-4 border animate-pulse cursor-pointer hover:bg-red-400 hover:border-red-400 transition-colors border-gray-500 rounded text-sm">
+        <button className="hidden sm:block py-2 px-4 border animate-pulse cursor-pointer hover:bg-red-400 hover:border-red-400 transition-colors border-gray-500 rounded text-sm"  onClick={() => navigation("/contact")}>
           <span className='animate-[wiggle_2s_ease-in-out_infinite] inline-block '>👋</span> Let's Talk
         </button>
       </div>
@@ -123,8 +123,10 @@ export default function Navbar() {
               ))}
             </ul>
             <div className="p-6">
-              <button className="w-full animate-pulse py-3 bg-red-400 hover:bg-red-500 transition-colors rounded text-sm font-semibold cursor-pointer" onClick={() => navigation("/contact")}>
-                <span className='animate-[wiggle_2s_ease-in-out_infinite] inline-block '>👋</span> Let's Talk
+              <button className="w-full animate-pulse py-3 bg-red-400 hover:bg-red-500 transition-colors rounded text-sm font-semibold cursor-pointer" onClick={() => navigation("/contact")} >
+                <span className='animate-[wiggle_2s_ease-in-out_infinite] inline-block '>👋</span>
+                
+                 Let's Talk
               </button>
             </div>
           </div>
