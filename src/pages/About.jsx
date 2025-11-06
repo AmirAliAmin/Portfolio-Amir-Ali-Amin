@@ -78,11 +78,11 @@ export default function About() {
                     <p className="text-gray-300 sm:text-sm text-xs">Leading frontend development initiatives and implementing innovative solutions</p>
                     <p className="text-sm text-gray-400 mt-1">August 2025 - Present</p>
                 </div>
-                <div>
+                {/* <div>
                     <h1 className="font-semibold">Frontend Developer - <span className='text-xs text-gray-400'>Coding First</span> </h1>
                     <p className="text-gray-300 sm:text-sm text-xs">Developed and maintained client websites with focus on performance and accessibility</p>
                     <p className="text-sm text-gray-400 mt-1">January 2025 - July 2025</p>
-                </div>
+                </div> */}
             </div>
         )}
         {activeTab === "education" && (
