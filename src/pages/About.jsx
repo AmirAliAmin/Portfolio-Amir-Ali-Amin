@@ -11,9 +11,9 @@ export default function About() {
       </div>
       <div className='lg:w-[50%] w-full h-full  flex flex-col justify-center'>
         <h1 className='text-5xl font-extrabold mb-4 text-center lg:text-start'>About Me</h1>
-        <span className="relative hidden lg:inline-flex h-10 w-10 -top-15">
+        {/* <span className="relative hidden lg:inline-flex h-10 w-10 -top-15">
           <span className="absolute w-full h-full rounded-full bg-red-600 opacity-75 animate-ping"></span>
-        </span>
+        </span> */}
         <p className='font-light'>
           I'm a passionate software developer with expertise in creating dynamic, user-friendly applications. 
           With a strong foundation in modern web technologies, I specialize in building seamless digital experiences 

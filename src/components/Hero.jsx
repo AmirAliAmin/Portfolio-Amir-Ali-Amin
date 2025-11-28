@@ -6,9 +6,9 @@ export default function Hero() {
     <div className="bg-black text-white flex min-h-screen md:min-h-fit lg:min-h-screen py-5 sm:flex-row flex-col-reverse items-center sm:px-4 md:px-7 lg:px-10  sm:gap-20 gap-5 pt-27  overflow-hidden">
       {/* Content Section */}
       <div className="sm:w-[50%]  w-full pb-2 z-10 text-center mt-10">
-        <span className="relative inline-flex h-10 w-10 top-10 right-15">
+        {/* <span className="relative inline-flex h-10 w-10 top-10 right-15">
           <span className="absolute w-full h-full rounded-full bg-red-600 opacity-75 animate-ping"></span>
-        </span>
+        </span> */}
         <p className="text-sm font-light mb-4">Welcome To My World</p>
         <h1 className="lg:text-5xl text-4xl md:text-4xl font-extrabold">
           Hi, I'm Amir Ali Amin{" "}
