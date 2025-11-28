@@ -6,10 +6,11 @@ import project4 from "../assets/Project4.png";
 import project5 from "../assets/Project5.png";
 import project6 from "../assets/Project6.png";
 import project7 from "../assets/Project7.png";
+import project8 from "../assets/Project8.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Portfolio() {
-  const projects = [
+ const projects = [
     {
       id: 1,
       name: "Cuddle Cradle - Kids Cloth Store",
@@ -67,6 +68,15 @@ export default function Portfolio() {
         "A full-stack Netflix clone with user authentication, movie browsing, and responsive design using React and Firebase",
       category: "Entertainment",
       link: "https://netflix-clone-nine-nu-59.vercel.app/",
+    },
+    {
+      id: 8,
+      name: "Expense Tracker",
+      image: project8,
+      description:
+        "Full-stack expense management application with income/expense tracking, dashboard analytics, and user authentication using MERN stack",
+      category: "Finance",
+      link: "https://expense-tracker-alpha-virid.vercel.app/login",
     },
   ];
 
