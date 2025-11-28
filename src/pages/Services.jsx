@@ -107,7 +107,7 @@ export default function Services() {
         <div className="sm:border-l relative py-1 px-5">
           <div className="flex gap-3 items-center">
             <h1 className="text-3xl font-bold">
-              Node.js <span className="text-red-400">(Basic)</span>
+              Node.js
             </h1>
             <p className="flex items-center mb-2 text-4xl text-green-500 sm:hidden">
               <FaNode />
