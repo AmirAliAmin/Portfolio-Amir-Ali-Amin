@@ -3,7 +3,7 @@ import amir from "../assets/Amir2.png";
 
 export default function Hero() {
   return (
-    <div className="bg-black text-white flex min-h-screen md:min-h-fit lg:min-h-screen py-5 sm:flex-row flex-col-reverse items-center sm:px-4 md:px-7 lg:px-10  sm:gap-20 gap-5 pt-27  overflow-hidden">
+    <div className="bg-black text-white flex min-h-screen md:min-h-fit lg:min-h-screen py-5 sm:flex-row flex-col-reverse items-center sm:px-4 md:px-7 lg:px-15  sm:gap-20 gap-5 pt-27  overflow-hidden">
       {/* Content Section */}
       <div className="sm:w-[50%]  w-full pb-2 z-10 text-start mt-10">
         {/* <span className="relative inline-flex h-10 w-10 top-10 right-15">
