@@ -24,6 +24,7 @@ export default function Navbar() {
             `hover:text-red-400 transition-colors ${isActive ? 'text-red-400' : ''}`
           } 
           to={"/"}
+          onClick={()=>scrollTo(0,0)}
         >
           Home
         </NavLink>
@@ -40,6 +41,7 @@ export default function Navbar() {
             `hover:text-red-400 transition-colors ${isActive ? 'text-red-400' : ''}`
           } 
           to={"/services"}
+          onClick={()=>scrollTo(0,0)}
         >
           Services
         </NavLink>
@@ -48,6 +50,7 @@ export default function Navbar() {
             `hover:text-red-400 transition-colors ${isActive ? 'text-red-400' : ''}`
           } 
           to={"/portfolio"}
+          onClick={()=>scrollTo(0,0)}
         >
           Portfolio
         </NavLink>
@@ -56,6 +59,7 @@ export default function Navbar() {
             `hover:text-red-400 transition-colors ${isActive ? 'text-red-400' : ''}`
           } 
           to={"/contact"}
+          onClick={()=>scrollTo(0,0)}
         >
           Contact
         </NavLink>
@@ -74,7 +78,7 @@ export default function Navbar() {
         >
           <IoIosMenu />
         </button>
-        <button className="hidden sm:block py-2 px-4 border animate-pulse cursor-pointer hover:bg-red-400 hover:border-red-400 transition-colors border-gray-500 rounded text-sm"  onClick={() => navigation("/contact")}>
+        <button className="hidden sm:block py-2 px-4 border animate-pulse cursor-pointer hover:bg-red-400 hover:border-red-400 transition-colors border-gray-500 rounded text-sm"  onClick={() => {navigation("/contact"), scrollTo(0,0)}}>
           <span className='animate-[wiggle_2s_ease-in-out_infinite] inline-block '>👋</span> Let's Talk
         </button>
       </div>
