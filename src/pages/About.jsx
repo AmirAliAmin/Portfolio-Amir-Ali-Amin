@@ -67,21 +67,22 @@ export default function About() {
             <div>
               <h1 className="font-semibold">Frontend Development</h1>
               <p className="text-gray-300 sm:text-sm text-xs">
-                Creating responsive websites and engaging web experiences with
-                focus on user-centric design
-              </p>
-            </div>
-            <div>
-              <h1 className="font-semibold">Interactive Design</h1>
-              <p className="text-gray-300 sm:text-sm text-xs">
-                Specializing in smooth animations and dynamic user interactions
+                Building responsive websites and interactive web interfaces
+                using React, HTML, CSS, and Tailwind CSS.
               </p>
             </div>
             <div>
               <h1 className="font-semibold">Backend Development</h1>
               <p className="text-gray-300 sm:text-sm text-xs">
-                Proficient in Node.js with solid understanding of server-side
-                technologies
+                Developing server-side applications and RESTful APIs using
+                Node.js and Express.
+              </p>
+            </div>
+            <div>
+              <h1 className="font-semibold">Full-Stack Projects</h1>
+              <p className="text-gray-300 sm:text-sm text-xs">
+                Experienced in building end-to-end applications, integrating
+                frontend and backend seamlessly.
               </p>
             </div>
           </div>
