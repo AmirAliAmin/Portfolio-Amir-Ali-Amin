@@ -7,10 +7,30 @@ import project5 from "../assets/Project5.png";
 import project6 from "../assets/Project6.png";
 import project7 from "../assets/Project7.png";
 import project8 from "../assets/Project8.png";
+import project9 from "../assets/Project9.png";
+import project10 from "../assets/Project10.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Portfolio() {
- const projects = [
+  const projects = [
+    {
+      id: 9,
+      name: "Classy Shop - Full Stack App",
+      image: project9,
+      description:
+        "Full-stack e-commerce platform with product listing, cart, checkout, and user authentication",
+      category: "E-commerce",
+      link: "https://e-commerce-app-full-stack.vercel.app/",
+    },
+    {
+      id: 10,
+      name: "Classy Shop - Admin Panel",
+      image: project10,
+      description:
+        "Admin dashboard to manage products, categories, subcategories, and home banners",
+      category: "Admin Panel",
+      link: "https://e-commerce-app-full-stack-n1sd.vercel.app/",
+    },
     {
       id: 1,
       name: "Cuddle Cradle - Kids Cloth Store",
