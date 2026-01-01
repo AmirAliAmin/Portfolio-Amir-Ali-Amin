@@ -16,7 +16,7 @@ export default function Portfolio() {
     {
       id: 9,
       name: "Classy Shop - Full Stack App",
-      image: project9,
+      image: project10,
       description:
         "Full-stack e-commerce platform with product listing, cart, checkout, and user authentication",
       category: "E-commerce",
@@ -25,7 +25,7 @@ export default function Portfolio() {
     {
       id: 10,
       name: "Classy Shop - Admin Panel",
-      image: project10,
+      image: project9,
       description:
         "Admin dashboard to manage products, categories, subcategories, and home banners",
       category: "Admin Panel",
